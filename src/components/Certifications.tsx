@@ -1,19 +1,19 @@
 import React from 'react';
-import { Award, GraduationCap } from 'lucide-react';
+import { Award, ShieldCheck } from 'lucide-react';
 
 export const Certifications: React.FC = () => {
   const certificationsList = [
     {
-      title: 'PG Diploma in Advanced Computing',
-      issuer: 'CDAC Know-IT, Pune – 2024',
-      description: 'Rigorous post-graduate validation program covering C#, ASP.NET Core, database design, and systems architecture.',
+      title: 'Pre-CAT Course Certification (Preparatory Entrance Exam)',
+      issuer: 'SunBeam Infotech Pvt. Ltd., Pune – 2023',
+      description: 'Validated training in Computer Fundamentals, OS Concepts, C Programming, Data Structures, OOP using C++, and Basics of Big Data & AI.',
       icon: <Award />,
     },
     {
-      title: 'Bachelor of Engineering (Computer Engineering)',
-      issuer: 'RH Sapat College of Engineering, Nashik – 2023',
-      description: 'Acquired core academic foundations in programming methodologies, algorithm analysis, structures, and systems engineering.',
-      icon: <GraduationCap />,
+      title: 'Web Design & Development Internship Certification',
+      issuer: 'SachiTech Technology for Innovators, Nashik – 2022',
+      description: 'Certified 6-week professional training and project contribution for the design and development of the SachiTech Web Portfolio.',
+      icon: <ShieldCheck />,
     },
   ];
 
@@ -21,7 +21,7 @@ export const Certifications: React.FC = () => {
     <section id="certifications" className="certifications-section section-padding">
       <div className="container">
         <div className="section-header reveal-item">
-          <h2 className="section-title">Certifications</h2>
+          <h2 className="section-title">Certifications & Internships</h2>
           <div className="accent-line"></div>
         </div>
 

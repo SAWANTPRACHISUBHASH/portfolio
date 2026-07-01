@@ -15,7 +15,7 @@ export const Resume: React.FC = () => {
             <h3>Prachi Sawant</h3>
             <p className="role-desc">Software Developer</p>
             <p className="resume-pitch">
-              Results-driven .NET Software Developer with 1.5+ years of experience in designing, developing, and maintaining scalable web applications and REST APIs using ASP.NET Core, C#, and SQL Server.
+              Results-driven .NET Software Developer with 2+ years of experience in designing, developing, and maintaining scalable web applications and REST APIs using ASP.NET Core, C#, and SQL Server.
             </p>
             <a href="/Prachi_Sawant_Resume.pdf" download className="btn btn-primary">
               Download Resume <Download className="btn-icon" />

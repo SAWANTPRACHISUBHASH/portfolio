@@ -15,7 +15,7 @@ export const About: React.FC = () => {
           <div className="about-story-content reveal-item">
             <h3>Professional Summary</h3>
             <p>
-              I am a results-driven <strong>.NET Software Developer</strong> with 1.5+ years of experience in designing, developing, and maintaining scalable web applications and REST APIs using ASP.NET Core, C#, and SQL Server.
+              I am a results-driven <strong>.NET Software Developer</strong> with 2+ years of experience in designing, developing, and maintaining scalable web applications and REST APIs using ASP.NET Core, C#, and SQL Server.
             </p>
             <p>
               I am experienced in implementing complex business logic, Role-Based Access Control (RBAC), and background job processing using Hangfire. I have strong expertise in Entity Framework, LINQ, and database optimization.
@@ -29,7 +29,7 @@ export const About: React.FC = () => {
           <div className="about-stats-grid reveal-item">
             <div className="stats-card">
               <Folders className="stats-icon" />
-              <div className="stats-num">1.5+</div>
+              <div className="stats-num">2+</div>
               <div className="stats-label">Years of Experience</div>
             </div>
 
