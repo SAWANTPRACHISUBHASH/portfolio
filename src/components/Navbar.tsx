@@ -1,6 +1,6 @@
 import React from 'react';
 import { Moon, Sun, Menu, X } from 'lucide-react';
-import logo from '../assets/logo.png';
+import logo from '../assets/logoportfolio.png';
 
 interface NavbarProps {
   theme: 'light' | 'dark';
@@ -31,7 +31,6 @@ export const Navbar: React.FC<NavbarProps> = ({
       <div className="nav-container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%' }}>
         <a href="#hero" className="logo" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
           <img src={logo} alt="Logo" className="logo-img" style={{ height: '36px', width: 'auto' }} />
-          <span className="logo-text">Prachi Sawant</span>
         </a>
 
         <nav className="nav-links">
